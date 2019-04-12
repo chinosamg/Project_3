@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Brewery Locations</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="index.html">Brewery Locations in the USA
+              </a>
+            </div>
+          </div>
+        </nav>
+        <div id="map"></div>
+        <div class="hero text-center">
+          <h1><p> Click <a href= "static/index2.html">here</a> to see the<strong> Distilliry Locations</strong></p></h1>
+          </div>
+        <br>
+        <br>
+      <div>
+        <center><h1>Begin search by city, state or zip</h1></center>
+      </div>
+      <br>
+      <div>
+          <input type="text" id="myInput2" onkeyup="myFunction2()" placeholder="Search by city">
+      </div>
+      <div>
+        <input type="text" id="myInput3" onkeyup="myFunction3()" placeholder="Search by state">
+      </div>
+      <div>
+        <input type="text" id="myInput4" onkeyup="myFunction4()" placeholder="Search by zip">
+    </div>
+      <button class="collapsible">Click to Open Search Results</button>
+    <div class="content">
+        <div class="container">
+            <div class="row margin-top-50">
+              <div class="col-md-2">
+              </div>
+              <div class="col-md-10">
+                <div id="table-area" class="">  
+                  <table id="myTable">
+                    <tr class="header">
+                        <center><thead>
+                        <th style="width:60%;">CITY</th>
+                        <th style="width:40%;">STATE</th>
+                        <th style="width:60%;">ZIP</th>
+                        <th style="width:40%;">TWITTER</th>
+                        <th style="width:40%;">WEBSITE</th>
+                        </thead></center>
+                      </tr> 
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">Reset Search</a>
+          </div>
+    </div>
+    <div>
+      <footer class="footer">
+        <span class="bottom">Brewery Locations in the USA</span>
+      </footer>
+    </div>
+    </div>
+</body>
+<script src="static/js/data.js"></script>
+  <script src="static/js/app.js"></script>
+  <script type="text/javascript" src="static/js/config.js"></script> 
+  <script type="text/javascript" src="static/js/data.js"></script>
+
+</html>
