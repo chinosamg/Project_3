@@ -239,7 +239,7 @@ select {
   margin-bottom: 12px; /* Add some space below the input */
 }
 
-#myInput3 {
+##myInput3 {
   background-position: 10px 12px; /* Position the search icon */
   background-repeat: no-repeat; /* Do not repeat the icon image */
   width: 100%; /* Full-width */
